@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Members Only - Video Library</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
+    <link href="stylesheets/style.css" rel="stylesheet">
+</head>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmHh9fPL3_XGfybGJBQ1uKmSIVEmEFUwAqVSDTKf-Ysacs6C2s" alt="CaughtJA" width="50" height="50">
+            </a>
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a class="button is-success" href="/addvideo">
+                        Create Event
+                    </a>
+                    <a class="button is-info" href="/members">
+                        Back to Event list
+                    </a>
+                    <a class="button is-dark" href="/logout">
+                        Log Out
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <section class="section welcome">
+        Welcome, <span class="member-name"></span>!
+        <br>
+        Pick an Event that has already been created...
+    </section>
+
+
+    <!-- <div class="big-gap"></div> -->
+
+    <!-- Rendered rows of videos from members.js -->
+
+    <div class="columns is-multiline section">
+        <div class="video-container"></div>
+    </div>
+
+    <div class="big-gap"></div>
+
+    <!-- <div class="row">
+        <div class="col-md-6">
+            <form id="ytForm">
+                <label for="ytInput">Search Youtube:</label>
+                <input type="text" id="ytInput">
+                <input id="ytBtn" type="submit" value="Get Video"></input>
+            </form>
+
+            <div id="ytResults"></div>
+
+        </div>
+    </div> -->
+
+    <div class="big-gap"></div>
+</div>
+<footer>
+    <div>
+        <p>
+            CaughtJa site created by:<br>
+              
+            <a href="https://github.com/krislg420">Christopher Garcia</a>,
+            <a href="https://github.com/joshkuruvilla512">Josh Kuruvilla</a>, and
+            <a href="https://github.com/JayDub21">Tedla </a>
+        </p>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/members.js"></script>
+<!-- Code to the yt.js File -->
+<!-- <script src="../routes/yt.js"></script> -->
+</body>
+
+</html>
