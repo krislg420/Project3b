@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Members Only - Video Library</title>
+    <title>Members Only - Event List</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
@@ -16,17 +16,17 @@
         <div class="container">
             <div class="navbar-brand">
                 <a class="navbar-item" href="/">
-                    <img src="../img/logo.png" alt="Bootcamp Video Library" width="248" height="28">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmHh9fPL3_XGfybGJBQ1uKmSIVEmEFUwAqVSDTKf-Ysacs6C2s" alt="CaughtJA" width="50" height="50">
                 </a>
             </div>
             <div class="navbar-end">
                 <div class="navbar-item">
                     <div class="buttons">
-                        <a class="button is-success" href="/addvideo">
-                            Add a Video
-                        </a>
+                        <!-- <a class="button is-success" href="/addvideo">
+                            Add a Event
+                        </a> -->
                         <a class="button is-info" href="/members">
-                            Back to Library
+                            Back to Event List
                         </a>
                         <a class="button is-dark" href="/logout">
                             Log Out
@@ -41,15 +41,15 @@
     <div class="container">
         <section class="section add-video-form">
             <div class="big-gap"></div>
-            <h1 class="is-size-1 signUpH1">Add a new video to the library</h2>
+            <h1 class="is-size-1 signUpH1">Add a new event to the list</h2>
                 <div class="small-gap"></div>
 
                 <br>
                 <div class="field">
                     <form class="add-video">
-                        <div class="signUp-label">Video Title</div>
+                        <div class="signUp-label">Event Title</div>
                         <p class="control has-icons-left">
-                            <input class="input" type="title" id="title-input" placeholder="Video Title">
+                            <input class="input" type="title" id="title-input" placeholder="Event Title">
                             <span class="icon is-small is-left">
                                 <i class="fas fa-heading"></i>
                             </span>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="small-gap"></div>
                 <div class="field">
-                    <div class="signUp-label">Recording Date</div>
+                    <div class="signUp-label">Event Date</div>
                     <p class="control has-icons-left">
                         <input class="input" type="rec_date" id="rec_date-input" placeholder="MM-DD-YYYY">
                         <span class="icon is-small is-left">
@@ -67,9 +67,9 @@
                 </div>
                 <div class="small-gap"></div>
                 <div class="field">
-                    <div class="signUp-label">Video URL</div>
+                    <div class="signUp-label">Organization link</div>
                     <p class="control has-icons-left">
-                        <input class="input" type="video_url" id="video_url-input" placeholder="Video Link">
+                        <input class="input" type="video_url" id="video_url-input" placeholder="Organization Link">
                         <span class="icon is-small is-left">
                             <i class="fas fa-link"></i>
                         </span>
@@ -77,9 +77,9 @@
                 </div>
                 <div class="small-gap"></div>
                 <div class="field">
-                    <div class="signUp-label">Keywords</div>
+                    <div class="signUp-label">Contact info </div>
                     <p class="control has-icons-left">
-                        <input class="input" type="keyword" id="keyword-input" placeholder="Keyword Phrase">
+                        <input class="input" type="keyword" id="keyword-input" placeholder="Contact info ">
                         <span class="icon is-small is-left">
                             <i class="fas fa-tag"></i>
                         </span>
